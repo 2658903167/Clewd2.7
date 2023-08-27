@@ -282,7 +282,7 @@ const deleteChat = async uuid => {
 };
 
 const setTitle = title => {
-    title = 'clewd v2.7修改版 by tera - ' + title;
+    title = 'clewd v2.7' + title;
     process.title !== title && (process.title = title);
 };
 
